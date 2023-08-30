@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+
+#nav-bar{
+    background-color: #2d2d2e;
+    height: 4rem;
+position: fixed;
+padding: 0rem;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+#nav-container {
+    max-width: 90rem;
+    color: #aeb1b5;
+    margin: 0 auto;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0;
+    background-color: rgb(182, 180, 180);
+}
+
+#main-desc-container{
+    padding-top: 5rem;
+
+}
+
+.input-text-message{
+    display: none;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 4rem;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.main-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#list-contacs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 24rem;
+    background-color: #797979;
+    border-radius: 0.5rem;
+    outline: auto;
+    outline-style: solid;
+
+}
+
+#list{
+    list-style: none;
+    overflow: auto;
+    height: 100%;
+    padding: 0;
+
+}
+
+#list::-webkit-scrollbar {
+    display: none;
+  }
+
+#contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+#svg-delete{
+    height: 2rem;
+    width: 2rem;
+}
+
+#svg-edit{
+    height: 2rem;
+    width: 2rem;
+}
+
+#form-btn{
+    border-radius: 0.5rem;
+}
+
+#svg-save{
+    height: 2rem;
+    width: 2rem;
+}
+
+.delete-icon{
+    border-radius: 0.5rem;
+}
+
+.delete-icon:hover{
+    color: rgb(201, 2, 2);
+}
+
+.edit-icon{
+    border-radius: 0.5rem;
+}
+
+.edit-icon:hover{
+    color: rgb(2, 91, 2);
+}
+
+.new-input{
+height: 2.2rem;
+border-radius: 0.5rem;
+}
+
+.error {
+    outline: 2px solid rgb(243, 10, 10);
+}
+
+.success{
+    outline: 2px solid rgb(0, 186, 0);
+}
+
+.editando{
+    background-color: rgba(123, 124, 124, 0.433);
+}
+
+.show {
+    display: block;
+}
+
